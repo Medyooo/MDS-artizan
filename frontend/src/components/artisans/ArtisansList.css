@@ -1,0 +1,32 @@
+.card{
+    border-radius: 8px;
+    box-shadow: #fbc06940 0px  4px 6px, rgba(251, 192, 105, 0.25) 0px 4px 6px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 4px 5px, rgba(0, 0, 0, 0.09) 0px 4px 6px;
+    width: 270px;
+    height: 520px;
+    padding: 30px 15px;   
+    color: beige;
+}
+
+.list-container{
+    padding-top: 70px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.card-picture{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+   
+  
+}

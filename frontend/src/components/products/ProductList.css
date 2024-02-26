@@ -1,0 +1,13 @@
+.price {
+    font-size:28px;
+    font-weight: 900;
+    color: burlywood;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+}
+.product-picture {
+    width: 200px;
+    height:150px;
+    border-radius: 10px;
+}

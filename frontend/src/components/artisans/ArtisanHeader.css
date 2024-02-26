@@ -1,0 +1,33 @@
+.Artisan-Header { 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.artisan-picture {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+  
+}
+
+@media screen and (max-width : 590px) {
+    .Artisan-Header{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
