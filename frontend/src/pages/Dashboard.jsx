@@ -5,7 +5,7 @@ export default function Dashboard () {
   const navigate = useNavigate()
 
   const logout = () => {
-    localStorage.removeItem('AUTH')
+    window.localStorage.removeItem('AUTH')
     navigate('/authentication')
   }
 

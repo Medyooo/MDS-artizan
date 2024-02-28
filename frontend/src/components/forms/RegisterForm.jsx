@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Input from './inputs/Input'
 import Button from './buttons/Button'
 import './forms.css'
+import { toast } from 'react-toastify'
 
 export default function RegisterForm () {
   const [formData, setFormData] = useState({
@@ -19,7 +20,7 @@ export default function RegisterForm () {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    alert(`Formulaire soumis : ${formData.firstName} ${formData.lastName}`)
+    toast(`Formulaire soumis : ${formData.firstName} ${formData.lastName}`)
   }
   return (
     <form className='form-container' onSubmit={handleSubmit}>
